@@ -6,7 +6,6 @@ WITH DatingCompanies AS (
        OR CompanyName IN ('Tinder', 'Bumble', 'Hinge', 'OkCupid', 'Match', 'PlentyOfFish')
 ),
 FundingDetails AS (
-    -- Extract financing details (Replace 'Deals' with the correct table)
     SELECT 
         c.CompanyID, 
         c.CompanyName,
